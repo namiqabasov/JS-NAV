@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  display: none;
+}
+li {
+  margin: 10px 20px;
+}
+
+h1 {
+  padding: 20px;
+  color: orange;
+  font-size: 20px;
+}
+nav {
+  background-color: #501202fa;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 744px;
+transition: 200ms;
+  width: 0;
+
+  overflow: hidden;
+}
+
+.btn1 {
+  margin-right: 50px;
+}
+
+.son {
+  width: 100%;
+}
+.rme {
+  margin: 20px;
+}
+
+.yeniul {
+  display: block;
+}
+
+.son1 {
+  position: relative;
+  width: 100%;
+  
+}
+.divbut {
+  height: 744px;
+  width: 100%;
+  transition: 200ms;
+}
+.arxafon {
+  background-color: rgba(0, 0, 0, 0.367);
+}
