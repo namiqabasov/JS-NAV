@@ -32,7 +32,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   height: 744px;
-transition: 200ms;
+  transition: 200ms;
   width: 0;
 
   overflow: hidden;
@@ -55,8 +55,8 @@ transition: 200ms;
 
 .son1 {
   position: relative;
-  width: 100%;
-  
+ min-width: 400px;
+ 
 }
 .divbut {
   height: 744px;
